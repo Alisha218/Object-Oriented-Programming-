@@ -1,0 +1,112 @@
+Practice these 15 tasks especially (1-5) which are most important for your finals.
+1. Simple Notepad : Implement text editing, saving/loading files, and basic formatting using JTextPane or JTextArea.
+
+2. Color Palette Chooser : Allow users to select colors using sliders (RGB), predefined options, or a combination. Display the selected color prominently.
+
+3. Shopping Cart Calculator : Calculate subtotal, discount (user input), tax (assumed 8%), and final total using user-provided item prices and quantities.
+
+4. Image Viewer: Display images, navigate through folders, zoom, and rotate using JFileChooser, JLabel, and appropriate listeners.
+
+5. Music Player: Play, pause, stop, adjust volume, create playlists, and manage song files using JList, JButton, and media libraries like Java Media Framework (JMF).
+
+6. File Explorer: Browse directories, view file details, copy/move/delete files, and search functionalities using JTree, JTable, and File API.
+
+7. Text-Based Adventure Game: Create a choose-your-own-adventure story with interactive options using JPanels for different scenarios and user input through JTextFields.
+
+8. Simple Calculator: Perform basic mathematical operations (addition, subtraction, multiplication, division) using JButtons and JTextFields.
+
+9. Password Generator: Generate random, secure passwords based on user-specified criteria (length, character types) using SecureRandom and utility methods.
+
+10. Quiz Application: Create quizzes with multiple-choice or open-ended questions, track user scores, and provide feedback using JRadioButtons, JTextFields, and appropriate logic.
+
+11. Unit Converter: Convert between various units of measurement (length, temperature, weight, etc.) using user input via JTextFields and conversion logic.
+
+12. Currency Converter: Convert between currencies based on real-time or user-provided exchange rates using JTextFields and APIs like Exchange Rates API.
+
+13. Drawing Application: Allow users to draw shapes (lines, circles, rectangles) and change colors/thickness using custom drawing panels and listeners.
+
+14. To-Do List Manager: Create a list of tasks with priorities, due dates, and completion tracking using JLists, JCheckBoxes, and data persistence.
+
+15. Simple Web Browser: Display basic web pages using JEditorPane or a dedicated web browsing library (consider complexity vs. learning curve).
+
+
+
+
+
+Here are 25 scenario-based coding tasks focused on Java Object-Oriented Programming (OOP) which will help you in your final exams (These are just practice questions):
+Make sure to implement all the OOP pillars and logics as much as it could be implemented.
+
+1.  Bank Account Management System :
+   Implement classes for different types of bank accounts (e.g., savings account, checking account) with methods for deposit, withdrawal, and balance inquiry.
+
+2.  Library Management System :
+   Create classes for books, authors, and library members, allowing for functionalities such as borrowing, returning, and searching for books.
+
+3.  Employee Payroll System :
+   Design classes to represent employees, with subclasses for different types (e.g., full-time, part-time) and methods to calculate salaries based on hours worked or fixed salaries.
+
+4.  Vehicle Rental System :
+   Build classes to manage rental vehicles, including cars, bicycles, and scooters, with functionalities for booking, returning, and tracking availability.
+
+5.  Online Shopping Cart :
+   Develop classes to model products, customers, and shopping carts, enabling functionalities such as adding items, removing items, and calculating the total cost.
+
+6.  University Course Registration System :
+   Create classes to represent courses, students, and instructors, allowing for functionalities like enrollment, dropping courses, and generating class schedules.
+
+7.  Inventory Management System :
+   Design classes to manage inventory items, suppliers, and orders, with methods for adding new items, updating quantities, and generating purchase orders.
+
+8.  Address Book Application :
+   Implement classes for contacts, groups, and addresses, enabling functionalities such as adding contacts, searching contacts, and organizing them into groups.
+
+9.  Social Media Platform :
+   Develop classes for users, posts, and comments, allowing functionalities like creating posts, commenting on posts, and following other users.
+
+10.  Hotel Reservation System :
+    Build classes to manage hotel rooms, reservations, and guests, with functionalities for booking rooms, canceling reservations, and checking room availability.
+
+11.  Online Exam System :
+    Create classes to represent exams, questions, and students, enabling functionalities like taking exams, grading responses, and generating score reports.
+
+12.  Flight Booking System :
+    Design classes to manage flights, passengers, and bookings, with methods for booking flights, canceling bookings, and checking flight availability.
+
+13.  Music Player Application :
+    Implement classes to represent songs, playlists, and users, allowing functionalities such as adding songs to playlists, shuffling playlists, and creating new playlists.
+
+14.  Event Management System :
+    Build classes to manage events, attendees, and organizers, with functionalities for scheduling events, registering attendees, and sending event invitations.
+
+15.  Task Management Application :
+    Create classes for tasks, projects, and users, enabling functionalities like creating tasks, assigning tasks to users, and tracking task progress.
+
+16.  Restaurant Management System :
+    Design classes to manage menus, orders, and customers, with methods for placing orders, updating menus, and calculating bills.
+
+17.  Ticket Booking System :
+    Develop classes to manage tickets, events, and venues, allowing functionalities like booking tickets, canceling bookings, and checking ticket availability.
+
+18.  Fitness Tracker Application :
+    Implement classes for users, workouts, and goals, enabling functionalities such as logging workouts, setting fitness goals, and tracking progress.
+
+19.  Car Rental System :
+    Create classes to manage rental cars, customers, and reservations, with functionalities for booking cars, returning cars, and generating rental agreements.
+
+20.  E-commerce Platform :
+    Build classes to manage products, orders, and customers, with functionalities for adding products to the cart, checking out, and processing payments.
+
+21.  Student Grade Management System :
+    Design classes to manage courses, students, and grades, with methods for entering grades, calculating GPAs, and generating grade reports.
+
+22.  Banking ATM System :
+    Develop classes to simulate an ATM machine, including functionalities for cash withdrawals, balance inquiries, and fund transfers.
+
+23.  Online Ticket Reservation System :
+    Implement classes to manage tickets, movies, and theaters, enabling functionalities like booking tickets, canceling bookings, and checking showtimes.
+
+24.  Task Scheduler Application :
+    Create classes for tasks, reminders, and users, allowing functionalities such as scheduling tasks, setting reminders, and notifying users.
+
+25.  Weather Forecasting Application :
+    Design classes to fetch and process weather data, including functionalities for displaying current weather conditions, forecasts, and weather alerts

@@ -1,0 +1,121 @@
+Introduction
+You’ll create your own personal simple Youtube browser application that allows you to search for and play videos. See here for the sample version of this project.
+
+Requirements
+At the top of application, the user can search for videos by entering a search term and hitting enter / return key.
+Search results are shown on the right hand side (up to 5 videos) listed as thumbnails with the video title.
+User can click on any of the search results and the video is featured on the left side as a video player with video title and description shown under it.
+User can click the play icon on the featured video to play the video.
+For an extra challenge
+
+Add a default search term to load videos and show the first video from the result as featured video
+Use the YouTube API to show more videos from the same creator under featured video as recommendations.
+Suggested Implementation
+This project can be implemented as a webpage using any front-end stack (e.g. JavaScript, React, Angular, Vue.js).
+==============================================================
+
+Introduction
+An appointment management system is a software used by companies and service providers to streamline their service appointments. By using the system, potential customers can know and choose their preferred appointment times according to the companies and service providers' available time slots. This project does not include a B2C marketplace-like interface for customers to browse different service providers.
+
+Requirements
+Create a login system for users to register an account with the system. You may add social logins like Google or Facebook to enhance the sign up/sign in user experience.
+Use a third party JavaScript library or plugin to display a calendar with the available time slots for selected time periods (e.g. a week).
+A business side admin dashboard for businesses to manage available appointment times and future appointments.
+A customer interface where customers can schedule, view, or cancel their appointments with a business.
+Use the simplest scheduler (cron job) to send customers email reminders prior to their appointments.
+Suggested Implementation
+Create a simple login system for registration. Alternatively, use Google, Facebook, or other social login integrations for sign up/sign in.
+Use third party JavaScript calendar like FullCalendar or Javascript event calendar.
+Create a form for logged in customers. The form will allow customers to book an appointment in the upcoming week.
+Create a report where businesses can view the scheduled appointments.
+Allow customers to view and edit their appointments (e.g. reschedule or cancel).
+Allow businesses to change the status of the event (e.g. confirmed, paid, cancelled).
+===========================================================================
+Introduction
+You’ll build a web app with a simple UI where a user can sign up for an account. Once logged in, the user is presented with a simple form to add medicine name, dosages, and frequency. After adding those details, the user can view, edit, or delete this information. The rough estimate for this project is 20 hours.
+
+Requirements
+Signup page and API: User can sign up for an account.
+Login page and API: After signup, the user can log in to their account.
+Account page: On this page, the user can add and view medicines.
+Input for the new data can be taken via an HTML form which has three fields:
+Medicine Name - String
+Dosage - Quantity (Integer) with units (String) or a freeform text field (String)
+Frequency - Quantity (Integer) with units (String) or freeform text field (String)
+The user can see their data in the form of a list (tracked medicines, dosages, and frequency). They can also update and delete existing data. Update can be done via a similar form as adding new data (with field values already populated with existing data).
+For an extra challenge:
+
+Build/use a cron job or service to send email or text reminders to the user to take the medicine at the right time.
+Suggested Implementation
+If you want to use Python, below is the recommended stack and libraries:
+
+Flask, Django, FastAPI for back-end APIs
+Django templates along with CSS frameworks (e.g. Bootstrap) for UI
+PostgreSQL or MySQL for the database
+Heroku for hosting the web app
+Scheduled jobs and logging libraries in Heroku
+===========================================================
+ntroduction
+You will create a to-do list application by using your preferred mobile application development framework. People are finding it harder and harder to remember and manage daily tasks in this fast-paced world. By creating a to-do list app, users can create and manage their daily tasks more easily.
+
+Requirements
+The application should open with a splash screen
+There should be three categories at the top of the screen:
+Pending
+Completed
+Overdue
+If the to-do list is empty, show an empty state message: “No items to display. Please press “Add” to add new items.”
+Show a fixed navigation bar at the bottom of the screen with an “Add” button, which allows the user to create a new task
+Clicking the “Add” button will show a screen with the following elements:
+Title (text input field)
+Description (text input field)
+Deadline (iOS or Android default date and time selector)
+Confirm button
+Cancel button
+Each new task should have a deadline later than the current time. Adding a task will save it to the file storage in the text file.
+Users can perform different actions by selecting single or multiple items:
+“Pending” category
+One item selected: the user can press “Delete,” “Edit,” or “Complete”
+Multiple items selected: the user can press “Delete” or “Complete”
+“Overdue” category
+One item selected: the user can press “Delete,” “Edit” or “Complete”
+Multiple items selected: the user can press “Delete” or “Complete”
+“Completed” category
+One item selected: the user can press “Delete” or “Edit”
+Multiple items selected: the user can press “Delete” or “Edit”
+When the user presses on the “Edit” button, a screen should pop up with:
+Title (text input field with pre-filled data)
+Description (text input field with pre-filled data)
+Deadline (iOS or Android default date and time selector with pre-filled data)
+Confirm button
+Cancel button
+Complete button
+10 minutes before the deadline of a task, users will receive a push notification to remind them of the task
+Suggested Implementation
+For iOS development, implement the app using Swift
+For Android development, implement the app using Java and the Android SDK
+To learn how to build multi-platform apps, use React Native
+Before you begin the development of the application, make sure you understand the basic requirements of the application. It's always a good practice to create a sketch of the screens. Also, do check out existing to-do list applications on the Google Play Store and the App Store to gain an idea of the look and feel of similar application
+=======================================================================================================
+Introduction
+You’ll create a mobile app, using your preferred technology for mobile development, to capture photos and information about what you eat. Keeping track of the food you eat is a proven way to make better diet choices. As an added benefit, many popular mobile apps - including Instagram - work in a similar way to the food journaling app you’ll build here.
+
+Requirements
+The user can take a photo of whatever they’re eating or drinking using their phone’s inbuilt camera
+The user can then add a description of the food to accompany the photo
+The user can browse through all the photos and descriptions they’ve added by swiping up or down
+The following image shows one way to implement the UI. Feel free to interpret the requirements however you'd like!
+Food journal mobile app project demo
+
+For an extra challenge
+
+The user can add hashtags to group related foods together, e.g. #tacos
+The user can add their location to posts automatically, e.g. Tony’s Calzones
+Suggested Implementation
+To learn iOS development, implement the app using Swift
+To learn Android development, implement the app using Java and the Android SDK
+To learn how to build multi-platform apps, use React Native
+Use SQLite for the app database
+If you’re new to mobile app development, we’ve collected some documentation, tutorials, and courses to help you get started with both iOS mobile development and Android mobile development.
+
+Before you begin development, make sure to familiarize yourself with similar mobile apps in the food diary space (this is a good list of the most popular ones). Download a few and try creating a journal entry with them. Take note of what you like - and don’t like - about the user experience. What would you change in your app? Many mobile developers sketch their UI ideas on paper before writing a single line of code. Give it a try!

@@ -1,0 +1,40 @@
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Fmanager extends JFrame {
+    private JPanel welcome;
+    private JTextField w;
+    private JButton btn1;
+    private JButton btn2;
+    public Fmanager(){
+        btn1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(btn1 ,btn1.getText()+ "Redirecting to other page ");
+            }
+
+        });
+        btn2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(btn2 ,btn2.getText()+ "Redirecting to other page ");
+
+            }
+        });
+
+    }
+
+    public static void main(String[] args) {
+        Fmanager one=new Fmanager();
+        one.setContentPane(one.welcome);
+        one.setTitle("Airline ");
+        one.setSize(500,700);
+        one.setVisible(true);
+        one.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
+    }
+
+
+}

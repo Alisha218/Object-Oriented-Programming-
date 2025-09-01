@@ -1,0 +1,44 @@
+
+1. Project Title and Description:
+Title: Flight Reservation System
+Description: The Flight Reservation System is a GUI-based Java application designed to simplify the process of booking flights for customers.
+It provides an interface for users to search for available flights, book seats, and manage their bookings.
+
+
+2. Objective:
+The objective of this project is to create a user-friendly flight reservation system that solves the problem of manual booking processes and 
+allows customers to book flights efficiently.
+
+
+3. Scope:
+User authentication and registration
+Flight search based on criteria like origin, destination, date, and number of passengers
+Seat selection and booking
+Ticket generation 
+User profile management for viewing booking history and managing personal information
+
+
+4. Target Audience:
+The target audience includes individual travelers, travel agencies, and airline staff who need to book and manage flight reservations.
+
+
+5. Technologies and Tools:
+JavaSwing GUI framework for building the user interface
+MySQL database for storing user data, flight information, and bookings
+IntelliJ IDEA as the integrated development environment (IDE)
+
+
+6. Object-Oriented Design:
+
+
+
+7. User Interface Design:
+Sketch or provide mockups of your proposed user interface design. Consider factors such as usability, aesthetics, and accessibility when designing your UI.
+
+8. Functionality and Features:
+Main functionalities and features of the application:
+User authentication and registration
+Flight search and selection based on criteria
+Seat selection with interactive seat maps
+Booking confirmation and e-ticket generation
+User profile management for viewing and modifying bookings

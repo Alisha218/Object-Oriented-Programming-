@@ -1,0 +1,20 @@
+   Child c1=new Child();
+        c1.childName();
+        c1.parentName();//bec child inherits parent features
+        //if you access other classes
+        //encapsulation
+        /*
+//overloading
+        ek mai parameter hoga ek mai nhi hoga but name same hoga
+//overriding
+        2 class same name function no parameter ek chalega */
+        Parent p1=new Parent();
+        p1.parentName();
+        c1.parentName();
+        //upcasting
+        Parent c=(Parent) new Child();
+        c.parentName(2);
+
+        //abstract methods
+        
+        
